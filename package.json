@@ -1,0 +1,17 @@
+{
+  "name": "ip-range-middleware",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "expressjs",
+    "middleware",
+    "ip",
+    "range"
+  ],
+  "author": "spddl",
+  "license": "ISC"
+}
