@@ -12,6 +12,7 @@ const IPRange = require('ip-range-middleware')
 
 ## Usage
 
+
 Allow only 127.0.0.1
 
 ```js
@@ -34,8 +35,8 @@ Allow only two addresses
 
 ```js
 app.use(IPRange([
-  [192], [168], [178], [2],
-  [127], [0], [0], [1]
+  [[192], [168], [178], [2]],
+  [[127], [0], [0], [1]]
 ]))
 ```
 
