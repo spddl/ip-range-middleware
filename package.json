@@ -1,11 +1,11 @@
 {
   "name": "ip-range-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-	"bench": "node benchmark/index"
+    "bench": "node benchmark/index"
   },
   "keywords": [
     "expressjs",
